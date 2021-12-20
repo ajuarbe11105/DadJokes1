@@ -5,7 +5,8 @@
 //  Created by Alberto Juarbe on 12/19/21.
 //
 
-import Foundation
+import SwiftUI
+
 
 // MARK: - Joke Model
 struct JokeModel: Identifiable, Codable {
