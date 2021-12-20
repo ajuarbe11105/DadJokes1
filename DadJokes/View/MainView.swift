@@ -19,8 +19,13 @@ struct MainView: View {
                     .font(.largeTitle)
                 Spacer()
                 
-                Text("🤣😂")
-                    .font(.largeTitle)
+//                Text("🤣😂")
+//                    .font(.largeTitle)
+                Image("rolling-on-the-floor-laughing_1f923")
+                    .resizable()
+                    .scaledToFit()
+                    .frame(width: 200, height: 200)
+             
                 Spacer()
                 Spacer()
                     
