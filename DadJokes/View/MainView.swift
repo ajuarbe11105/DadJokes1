@@ -54,6 +54,7 @@ struct MainView: View {
                 Spacer()
                 
             }
+            .navigationViewStyle(StackNavigationViewStyle())
         }
         }
     }
