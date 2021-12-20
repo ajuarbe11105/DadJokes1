@@ -13,7 +13,6 @@
 		0B2D8F43276FF19D00A6B79F /* JokeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2D8F42276FF19D00A6B79F /* JokeModel.swift */; };
 		0B2D8F45276FF1BA00A6B79F /* JokeModelDownload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2D8F44276FF1BA00A6B79F /* JokeModelDownload.swift */; };
 		0B2D8F48276FF2E600A6B79F /* JokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2D8F47276FF2E600A6B79F /* JokeView.swift */; };
-		0B2D8F4C276FFD0600A6B79F /* PunchlineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B2D8F4B276FFD0600A6B79F /* PunchlineView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,7 +23,6 @@
 		0B2D8F42276FF19D00A6B79F /* JokeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeModel.swift; sourceTree = "<group>"; };
 		0B2D8F44276FF1BA00A6B79F /* JokeModelDownload.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeModelDownload.swift; sourceTree = "<group>"; };
 		0B2D8F47276FF2E600A6B79F /* JokeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JokeView.swift; sourceTree = "<group>"; };
-		0B2D8F4B276FFD0600A6B79F /* PunchlineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PunchlineView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,7 +85,6 @@
 			isa = PBXGroup;
 			children = (
 				0B2D8F47276FF2E600A6B79F /* JokeView.swift */,
-				0B2D8F4B276FFD0600A6B79F /* PunchlineView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -163,7 +160,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				0B2D8F48276FF2E600A6B79F /* JokeView.swift in Sources */,
-				0B2D8F4C276FFD0600A6B79F /* PunchlineView.swift in Sources */,
 				0B2D8F45276FF1BA00A6B79F /* JokeModelDownload.swift in Sources */,
 				0B2D8F34276FF17A00A6B79F /* DadJokesApp.swift in Sources */,
 				0B2D8F43276FF19D00A6B79F /* JokeModel.swift in Sources */,

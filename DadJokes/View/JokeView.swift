@@ -17,8 +17,8 @@ struct JokeView: View {
             
       
         ZStack {
-//            Color.green
-            LinearGradient(colors: [.blue, .purple], startPoint: .topLeading, endPoint: .bottomTrailing)
+
+            LinearGradient(colors: [.purple, .blue, .purple], startPoint: .topLeading, endPoint: .bottomTrailing)
                 .ignoresSafeArea()
         
         ForEach(dadJoke.jokeInfo) { joke in
@@ -34,6 +34,7 @@ struct JokeView: View {
                         VStack {
                             Spacer()
                             Text("Random Joke")
+                                .foregroundColor(.black)
                                 .underline()
                                 .font(.largeTitle)
                             Spacer()
@@ -73,14 +74,10 @@ struct JokeView: View {
                         .background(Color(.systemBlue))
                         .foregroundColor(.white)
                         .cornerRadius(15)
-                    //.frame(width: 300, height: 300)
                         .padding(60)
                     
                 })
 
-                
-               
-                
             }
             .padding()
             
@@ -89,6 +86,7 @@ struct JokeView: View {
             
         }
         }
+        .navigationViewStyle(StackNavigationViewStyle())
         }
        
     }
