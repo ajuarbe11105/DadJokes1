@@ -66,7 +66,7 @@ struct KnockKnockView: View {
                       
                     }, label: {
 
-                        Text("Random Joke")
+                        Text("Knock Knock")
                         
                             .bold()
                             .font(.title3)
@@ -82,7 +82,7 @@ struct KnockKnockView: View {
                 .padding()
                 
                 }
-                .navigationTitle("😂🤣 JOKES 😂🤣")
+                .navigationTitle("😂🤣 Knock Knock! 😂🤣")
                 
             }
             }
